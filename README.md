@@ -1,7 +1,8 @@
 # connect-Four
 Title of game: Connect-Four
 
-[insert image here]
+![hq720](https://github.com/user-attachments/assets/278674b9-75c6-411a-ba6b-7a5dcbb0336f)
+
 
 Discription: Connect four is a 1 on 1 skill game
 Your goal is to get 4 of your color (yellow or red) in a row to win
