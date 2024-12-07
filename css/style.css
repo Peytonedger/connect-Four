@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+min-height: 100vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+background-color: gray;
+}
+
+.table {
+    padding: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(7, 116px);
+    gap: 5px;
+    height: 750px;
+    width: 850;
+    background-color: darkblue;
+}
+
+.emptyslots {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.yellowdisk {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.reddisk {
+    width: 100px;
+    height: 100px;
+    background-color: red;  
+}
+
+.occupied {
+    pointer-events: none;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+.yellowwins, .redwins, .equality {
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 300px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.yellowwins {
+    background-color: orange;
+    color: white;
+}
+
+.redwins {
+    background-color: red;
+    color: white;
+}
+
+.equality {
+    background-color: darkblue;
+    color: white;
+}
+
