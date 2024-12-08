@@ -16,10 +16,10 @@ background-color: gray;
 .table {
     padding: 0.8rem;
     display: grid;
-    grid-template-columns: repeat(7, 116px);
-    gap: 5px;
+    grid-template-columns: repeat(7, 108px);
+    gap: 10px;
     height: 750px;
-    width: 850;
+    width: 850px;
     background-color: darkblue;
 }
 
@@ -32,15 +32,13 @@ background-color: gray;
 }
 
 .yellowdisk {
-    width: 100px;
-    height: 100px;
     background-color: yellow;
+    border-radius: 50%;
 }
 
 .reddisk {
-    width: 100px;
-    height: 100px;
     background-color: red;  
+    border-radius: 50%;
 }
 
 .occupied {
@@ -64,7 +62,7 @@ h1 {
 }
 
 .yellowwins {
-    background-color: orange;
+    background-color: darkgoldenrod;
     color: white;
 }
 
