@@ -30,6 +30,7 @@ const generateWinningCombines = () => {
     return winningCombines;
 };
 
+
 let startgame = () => {
     tries = 0;
     document.querySelector('.table').innerHTML = ""; 
@@ -120,3 +121,4 @@ let check = () => {
 };
 
 startgame();
+
