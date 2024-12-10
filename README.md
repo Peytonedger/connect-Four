@@ -8,7 +8,7 @@ Discription: Connect four is a 1 on 1 skill game
 Your goal is to get 4 of your color (yellow or red) in a row to win
 I chose this game because it is something I fondly remember playing as a kid 
 
-Click here to play: [insert link here]
+Click here to play: https://peytonedger.github.io/connect-Four/
 
 this game was created using JavaScript, HTML, and CSS
 
