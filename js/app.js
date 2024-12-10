@@ -37,12 +37,12 @@ let startgame = () => {
     for (let i = 1; i <= 42; i++) {
         let slot = document.createElement('div');
         slot.id = i - 1;
-        slot.classList.add('emptySlots');
+        slot.classList.add('emptyslots');
         slot.classList.add('occupied');
         document.querySelector('.table').appendChild(slot);
     }
 
-    let slots = document.querySelectorAll('.emptySlots');
+    let slots = document.querySelectorAll('.emptyslots');
     let flip = false;
     let count = 1;
 
@@ -76,7 +76,7 @@ let startgame = () => {
 
 let check = () => {
     let winningCombines = generateWinningCombines();
-    let slots = document.querySelectorAll('.emptySlots');
+    let slots = document.querySelectorAll('.emptyslots');
     tries++;
 
     winningCombines.forEach(pair => {
